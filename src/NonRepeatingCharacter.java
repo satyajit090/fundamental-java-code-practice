@@ -8,7 +8,6 @@ public class NonRepeatingCharacter {
     public static void main(String[] args) {
 
         String s="aatyajit";
-
         String a=maxA(s);
         System.out.println(a);
 
@@ -25,8 +24,6 @@ public class NonRepeatingCharacter {
             if (aa.indexOf(aa.charAt(i)) == aa.lastIndexOf(aa.charAt(i))) {
                 return "" + aa.charAt(i);
             }
-
-
         }
         return "no repeat character";
     }
