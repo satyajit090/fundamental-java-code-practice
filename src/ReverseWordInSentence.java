@@ -1,5 +1,5 @@
 public class ReverseWordInSentence {
-    //Reverse words in a sentence (without reversing characters).
+    //Reverse words in a sentence (ß reversing characters).
     public static void main(String[] args) {
 
         String s="My name is Satyajit Behera";
